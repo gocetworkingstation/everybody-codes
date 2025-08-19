@@ -1,0 +1,13 @@
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/bin/Debug/net8.0/CameraAssignment.Core.deps.json
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/bin/Debug/net8.0/CameraAssignment.Core.dll
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/bin/Debug/net8.0/CameraAssignment.Core.pdb
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.csproj.AssemblyReference.cache
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.AssemblyInfoInputs.cache
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.AssemblyInfo.cs
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.csproj.CoreCompileInputs.cache
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.sourcelink.json
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.dll
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/refint/CameraAssignment.Core.dll
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/CameraAssignment.Core.pdb
+/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Core/obj/Debug/net8.0/ref/CameraAssignment.Core.dll
