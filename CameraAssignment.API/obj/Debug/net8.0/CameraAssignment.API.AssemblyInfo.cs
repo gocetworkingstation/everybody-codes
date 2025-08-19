@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CameraAssignment.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64a2d8f10dc75259c27f720469992a0ef4d160a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+230916a08441b2ae725fd7b72cd9c47bd31b2117")]
 [assembly: System.Reflection.AssemblyProductAttribute("CameraAssignment.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CameraAssignment.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

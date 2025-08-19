@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "O3fkZtrNv8Q=",
+  "dgSpecHash": "teEjN2J0U2A=",
   "success": true,
   "projectFilePath": "/Users/gocemitkovski/Documents/2025 Gocetworkingstation/Exessible assignment/everybody-codes/CameraAssignment.Tests/CameraAssignment.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/gocemitkovski/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/gocemitkovski/.nuget/packages/csvhelper/33.1.0/csvhelper.33.1.0.nupkg.sha512",
     "/Users/gocemitkovski/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "/Users/gocemitkovski/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "/Users/gocemitkovski/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/Users/gocemitkovski/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "/Users/gocemitkovski/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/gocemitkovski/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
