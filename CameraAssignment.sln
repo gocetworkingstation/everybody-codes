@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraAssignment.Core", "CameraAssignment.Core\CameraAssignment.Core.csproj", "{006D4F84-E4DF-41B8-A518-578B50B89C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraAssignment.Cli", "CameraAssignment.Cli\CameraAssignment.Cli.csproj", "{FC6F0B34-D7B6-486B-B522-FC3C6998841D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraAssignment.API", "CameraAssignment.API\CameraAssignment.API.csproj", "{225867C0-5A7C-4885-ACA7-EA213B1F08A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraAssignment.Tests", "CameraAssignment.Tests\CameraAssignment.Tests.csproj", "{A2C2573F-A374-4364-96A1-9ACD15849B58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{006D4F84-E4DF-41B8-A518-578B50B89C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006D4F84-E4DF-41B8-A518-578B50B89C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006D4F84-E4DF-41B8-A518-578B50B89C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006D4F84-E4DF-41B8-A518-578B50B89C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6F0B34-D7B6-486B-B522-FC3C6998841D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6F0B34-D7B6-486B-B522-FC3C6998841D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6F0B34-D7B6-486B-B522-FC3C6998841D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6F0B34-D7B6-486B-B522-FC3C6998841D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225867C0-5A7C-4885-ACA7-EA213B1F08A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225867C0-5A7C-4885-ACA7-EA213B1F08A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225867C0-5A7C-4885-ACA7-EA213B1F08A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225867C0-5A7C-4885-ACA7-EA213B1F08A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C2573F-A374-4364-96A1-9ACD15849B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C2573F-A374-4364-96A1-9ACD15849B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C2573F-A374-4364-96A1-9ACD15849B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C2573F-A374-4364-96A1-9ACD15849B58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

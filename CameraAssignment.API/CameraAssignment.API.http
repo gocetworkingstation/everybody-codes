@@ -1,0 +1,6 @@
+@CameraAssignment.API_HostAddress = http://localhost:5211
+
+GET {{CameraAssignment.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
