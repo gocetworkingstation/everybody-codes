@@ -1,7 +1,4 @@
-using System.Globalization;
 using CameraAssignment.Core;
-using CameraAssignment.Core.Models;
-using CsvHelper;
 using Assert = NUnit.Framework.Assert;
 
 namespace CameraAssignment.Tests;
@@ -16,6 +13,15 @@ namespace CameraAssignment.Tests;
         {
             _testCsvPath = Path.GetTempFileName();
             CreateTestCsv(_testCsvPath);
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            if (File.Exists(_testCsvPath))
+            {
+                File.Delete(_testCsvPath);
+            }
         }
 
         [Test]
@@ -71,11 +77,9 @@ namespace CameraAssignment.Tests;
         private void CreateTestCsv(string filePath)
         {
             using var writer = new StreamWriter(filePath);
-            using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
-            csv.WriteRecords(new List<Camera>
-            {
-                new Camera { Number = 501, Name = "UTR-CM-501 Neude rijbaan voor Postkantoor", Latitude = 52.093421, Longitude = 5.118278 },
-                new Camera { Number = 502, Name = "UTR-CM-502 Vinkenburgstraat", Latitude = 52.092378, Longitude = 5.117902 }
-            });
+            // Write CSV with semicolon delimiter to match actual data format
+            writer.WriteLine("Camera;Latitude;Longitude");
+            writer.WriteLine("UTR-CM-501 Neude rijbaan voor Postkantoor;52.093421;5.118278");
+            writer.WriteLine("UTR-CM-502 Vinkenburgstraat;52.092378;5.117902");
         }
     }

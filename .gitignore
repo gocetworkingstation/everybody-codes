@@ -7,15 +7,23 @@ Thumbs.db
 *.sln.iml
 
 # Build results
-bin/
-obj/
-out/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
 
 # User-specific files
 *.user
 *.userosscache
 *.suo
 *.userprefs
+*.sln.docstates
 
 # Rider settings
 *.iml
@@ -23,10 +31,21 @@ out/
 *.iws
 
 # VS-related (if opened with Visual Studio at any point)
+.vs/
 *.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core build
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
 # Logs
 *.log
+*.binlog
 
 # NuGet packages
 *.nupkg
@@ -38,6 +57,11 @@ packages/
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
 !**/packages/repositories.config
+
+# Runtime files
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
 
 # Azure stuff
 *.PublishSettings

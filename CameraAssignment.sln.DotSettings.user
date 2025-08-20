@@ -3,5 +3,7 @@
   &lt;Or&gt;
     &lt;ProjectFile&gt;A2C2573F-A374-4364-96A1-9ACD15849B58/f:CameraRepositoryTests.cs&lt;/ProjectFile&gt;
     &lt;ProjectFile&gt;A2C2573F-A374-4364-96A1-9ACD15849B58/f:CameraServiceTests.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;A2C2573F-A374-4364-96A1-9ACD15849B58/f:CameraRepositoryErrorHandlingTests.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;A2C2573F-A374-4364-96A1-9ACD15849B58/f:SearchCommandHandlerTests.cs&lt;/ProjectFile&gt;
   &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

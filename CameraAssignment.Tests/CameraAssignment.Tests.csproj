@@ -24,6 +24,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CameraAssignment.Core\CameraAssignment.Core.csproj" />
+      <ProjectReference Include="..\CameraAssignment.Cli\CameraAssignment.Cli.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System.CommandLine;
+using CameraAssignment.Cli;
 using CameraAssignment.Core.Configuration;
 using CameraAssignment.Core.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,18 +33,17 @@ searchCommand.SetHandler((string name) =>
         // Set up dependency injection
         var services = new ServiceCollection();
         services.ConfigureCameraServices(csvFilePath);
+        services.AddSingleton<SearchCommandHandler>();
         var serviceProvider = services.BuildServiceProvider();
 
-        // Get the camera service
-        var cameraService = serviceProvider.GetRequiredService<ICameraService>();
+        // Get the command handler
+        var commandHandler = serviceProvider.GetRequiredService<SearchCommandHandler>();
 
-        // Search for cameras
-        var cameras = cameraService.Search(name);
-
-        // Display results in the required format
-        foreach (var camera in cameras)
+        // Execute search and display results
+        var results = commandHandler.ExecuteSearch(name);
+        foreach (var result in results)
         {
-            Console.WriteLine($"{camera.Number} | {camera.Name} | {camera.Latitude} | {camera.Longitude}");
+            Console.WriteLine(result);
         }
     }
     catch (Exception ex)
