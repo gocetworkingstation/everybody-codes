@@ -1,6 +1,31 @@
 @CameraAssignment.API_HostAddress = http://localhost:5211
 
-GET {{CameraAssignment.API_HostAddress}}/weatherforecast/
+# Get all cameras
+GET {{CameraAssignment.API_HostAddress}}/api/cameras
+Accept: application/json
+
+###
+
+# Search cameras by name
+GET {{CameraAssignment.API_HostAddress}}/api/cameras/search?name=Neude
+Accept: application/json
+
+###
+
+# Get camera by number
+GET {{CameraAssignment.API_HostAddress}}/api/cameras/501
+Accept: application/json
+
+###
+
+# Test error handling - non-existent camera
+GET {{CameraAssignment.API_HostAddress}}/api/cameras/9999
+Accept: application/json
+
+###
+
+# Test error handling - search without parameter
+GET {{CameraAssignment.API_HostAddress}}/api/cameras/search
 Accept: application/json
 
 ###
