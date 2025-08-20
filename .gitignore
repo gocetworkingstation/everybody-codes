@@ -1,0 +1,46 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider settings
+*.iml
+*.ipr
+*.iws
+
+# VS-related (if opened with Visual Studio at any point)
+*.vs/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+packages/
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+!**/packages/repositories.config
+
+# Azure stuff
+*.PublishSettings
+*.azurePubxml
+
+#
